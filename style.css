@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #141216;
+    width: 100vw;
+    height: 100vh;
+}
+
+#raffle-logo {
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+}
+
+section {
+    border: 2px solid #d60000;
+    border-radius: 10px;
+    color: #ffff;
+    background: #1a181d;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+    gap: 4px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.inputs {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
