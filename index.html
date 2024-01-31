@@ -14,21 +14,22 @@
             <h2>Sortear um número</h2>
 
             <div class="inputs">
-                <label for="min" class="input-min input">
+                <label for="min" class="input-min">
                     Min.: 
-                    <input type="number">
+                    <input type="number" name="min" id="min">
                 </label>
-                <label for="max" class="input-max input">
+                <label for="max" class="input-max">
                     Max.: 
-                    <input type="number">
+                    <input type="number" name="max" id="max">
                 </label>
             </div>
 
-            <button class="draw-button">Sortear</button>
+            <button class="draw-button" onclick="drawNumber()">Sortear</button>
 
             <p>Resultado:</p>
             <p class="result">00</p>
         </section>
     </main>
 </body>
+<script src="script.js"></script>
 </html>
